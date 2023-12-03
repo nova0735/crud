@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .txti {
+      @apply rounded-[5px] m-2 p-2 w-[90%] h-10 border border-white border-solid border-2 bg-slate-950 text-[16px]  text-white tracking-[1px];
+    }
+    .txt{
+        @apply text-white text-[20px] tracking-[3px];
+    }
+    .btn{
+        @apply h-[60px] w-[250px] rounded-[5px] text-white text-[16px] border border-white border-solid border-2 tracking-[3px];
+    }
+  }
